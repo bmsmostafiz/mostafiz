@@ -133,6 +133,7 @@ header {
 .address ul{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -156,6 +157,7 @@ header {
 .social ul{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 35px;
 }
 
@@ -263,6 +265,54 @@ header {
 
     .aboutMe h1{
         text-align: center;
+    }
+
+    .address li{
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+
+    .address li span{
+        margin-right: 5px;
+        font-weight: normal;
+    }
+    
+    .address li i{
+        font-size: 0.9rem;
+        margin-right: 7px;
+    }
+
+    .banner-pic{
+        display: none;
+    }
+}
+
+@media (max-width:314px) {
+    .intor{
+        flex-direction: column;
+    }
+    .profile-pic{
+        width: 150px;
+    }
+
+    .aboutMe h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .address li{
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+
+    .address li span{
+        margin-right: 5px;
+        font-weight: normal;
+    }
+    
+    .address li i{
+        font-size: 0.9rem;
+        margin-right: 7px;
     }
 
     .banner-pic{
