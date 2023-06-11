@@ -127,7 +127,6 @@ header {
 .aboutMe h5{
     font-size: 1rem;
     color: var(--bg-dark);
-    text-align: center;
 }
 
 .address ul{
@@ -157,7 +156,6 @@ header {
 .social ul{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 35px;
 }
 
@@ -214,18 +212,6 @@ header {
 
 }
 
-
-@media (max-width:1251px){
-    .profile-pic{
-        width: 250px;
-    }
-
-    .banner-pic{
-        width: 350px;
-    }
-
-}
-
 @media (max-width:992px){
     .profile-pic{
         width: 240px;
@@ -250,6 +236,11 @@ header {
         font-size: 1.8rem;
     }
 
+    .aboutMe h5{
+        font-size: 0.8rem;
+    }
+    
+
     .banner-pic{
         display: none;
     }
@@ -264,6 +255,12 @@ header {
     }
 
     .aboutMe h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .aboutMe h5{
+        font-size: 0.7rem;
         text-align: center;
     }
 
@@ -296,7 +293,12 @@ header {
     }
 
     .aboutMe h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .aboutMe h5{
+        font-size: 0.5rem;
         text-align: center;
     }
 
