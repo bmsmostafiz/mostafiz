@@ -201,15 +201,73 @@ header {
     width: 500px;
 }
 
-@media (max-width:768px){
-    .banner-pic{
-        display: none;
-    }
-
+@media (max-width:1251px){
     .profile-pic{
         width: 250px;
     }
 
+    .banner-pic{
+        width: 350px;
+    }
+
+}
+
+
+@media (max-width:1251px){
+    .profile-pic{
+        width: 250px;
+    }
+
+    .banner-pic{
+        width: 350px;
+    }
+
+}
+
+@media (max-width:992px){
+    .profile-pic{
+        width: 240px;
+    }
+
+    .aboutMe h1{
+        font-size: 2.1rem;
+    }
+
+    .banner-pic{
+        display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+    .profile-pic{
+        width: 250px;
+    }
+
+    .aboutMe h1{
+        font-size: 1.8rem;
+    }
+
+    .banner-pic{
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    .intor{
+        flex-direction: column;
+    }
+    .profile-pic{
+        width: 250px;
+    }
+
+    .aboutMe h1{
+        text-align: center;
+    }
+
+    .banner-pic{
+        display: none;
+    }
 }
 /******* End of Introducation area ********/
 
