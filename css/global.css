@@ -1,0 +1,41 @@
+
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/RobotoSlab-Regular.woff);
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.woff);
+}
+
+@font-face {
+    font-family: galada;
+    src: url(../fonts/Galada-Regular.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+:root{
+    --bg-dark: #212529;
+    --bg-light: #d8e0e7;
+    --color-dark: #212529;
+    --color-light: #d8e0e7;
+}
+
+
+

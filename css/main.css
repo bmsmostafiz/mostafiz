@@ -1,0 +1,99 @@
+/********* Header area *************/
+header {
+    background: var(--bg-dark);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg-light);
+}
+
+.navbar {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.brand {
+    font-size: 2rem;
+    font-family: roboto, sans-serif;
+    font-weight: bold;
+}
+
+.nav-link {
+    transition: all 0.5s ease;
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: rgb(91, 138, 179);
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #ffffff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (max-width:768px) {
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        width: 100%;
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--bg-dark);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 12px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+}
+
+
+/*********End of Header area *************/
