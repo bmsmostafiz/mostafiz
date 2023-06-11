@@ -3,11 +3,11 @@ header {
     background: var(--bg-dark);
 }
 
-li {
+.navbar li {
     list-style: none;
 }
 
-a {
+.navbar a {
     text-decoration: none;
     color: var(--bg-light);
 }
@@ -52,7 +52,7 @@ a {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background-color: #ffffff;
+    background-color: var(--bg-light);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -95,5 +95,121 @@ a {
     }
 }
 
-
 /*********End of Header area *************/
+
+
+/********* Introducation area *************/
+.intor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.profile-pic{
+    width: 350px;
+}
+
+.address-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.aboutMe h1{
+    font-size: 2.3rem;
+}
+
+.aboutMe h1 span{
+    color: green;
+}
+
+.aboutMe h5{
+    font-size: 1rem;
+    color: var(--bg-dark);
+    text-align: center;
+}
+
+.address ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.address li{
+    list-style: none;
+    font-size: 1.1rem;
+    font-family: roboto, sans-serif;
+    cursor: pointer;
+}
+
+.address li span{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.address li i{
+    font-size: 1.3rem;
+    margin-right: 7px;
+}
+
+.social ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.social ul li{
+    list-style: none;
+    width: 30px;
+}
+
+.social ul li a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.social .fab{
+    width: 30px;
+    color: var(--color-light);
+    text-align: center;
+    padding: 11px 5px;
+    border-radius: 50%;
+}
+
+.fa-facebook-f{
+    background: #3B5998;;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+}
+
+.fa-linkedin-in{
+    background: #007bb5;
+}
+
+.fa-youtube{
+    background: #CD201F;
+}
+
+.fa-pinterest-p{
+    background: #BD081C;
+}
+
+.banner-pic{
+    width: 500px;
+}
+
+@media (max-width:768px){
+    .banner-pic{
+        display: none;
+    }
+
+    .profile-pic{
+        width: 250px;
+    }
+
+
+/******* End of Introducation area ********/
+
