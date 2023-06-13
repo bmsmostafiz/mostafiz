@@ -325,7 +325,7 @@ header {
 .main-section{
     width: 85vw;
     margin: 50px auto 20px;
-    padding: 0 15px;
+    padding: 0 8px;
 }
 
 .best-skill{
@@ -358,12 +358,20 @@ header {
 }
 
 @media (max-width:768px){
+    .skill-area h1{
+        font-size: 22px;
+    }
+
+    .skill-area h1{
+        font-size: 15px;
+    }
+    
     .skill-logo{
         gap: 10px;
     }
 
     .logo-box{
-        width: 60px;
+        width: 75px;
         padding: 10px;
     }
 }
