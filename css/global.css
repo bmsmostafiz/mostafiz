@@ -18,6 +18,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -27,6 +28,30 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+
+h1{
+    font-family: poppins, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: var(--color-dark);
+}
+
+h2{
+    font-family: poppins, sans-serif;
+    font-size: 27px;
+    margin: 0;
+    padding: 0;
+    color: var(--color-dark);
+}
+
+p{
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: var(--color-dark);
+
 }
 
 
