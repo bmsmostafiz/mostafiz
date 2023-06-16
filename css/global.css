@@ -46,6 +46,14 @@ h2{
     color: var(--color-dark);
 }
 
+h3{
+    font-family: poppins, sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: var(--color-dark);
+}
+
 h4{
     font-family: poppins, sans-serif;
     font-size: 1em;

@@ -57,44 +57,6 @@ header {
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width:768px) {
-    .hamburger{
-        display: block;
-    }
-
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .nav-menu{
-        width: 100%;
-        position: fixed;
-        left: -100%;
-        top: 60px;
-        gap: 0;
-        flex-direction: column;
-        background-color: var(--bg-dark);
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item{
-        margin: 12px 0;
-    }
-
-    .nav-menu.active{
-        left: 0;
-    }
-}
-
 /*********End of Header area *************/
 
 
@@ -204,7 +166,10 @@ header {
     width: 500px;
 }
 
-/******* End of Introducation area *****************************/
+/******* End of Introducation area **************/
+
+
+/******* Skill  area **************/
 
 .main-section{
     width: 85vw;
@@ -213,27 +178,76 @@ header {
 }
 
 .best-skill{
-    margin-top: 40px;
+    margin: 40px 0;
 }
 
-
-.skill-logo{
-    margin-top: 10px;
-    padding: 10px 0;
+.skill-card{
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
+    border: 1px solid;
 }
 
-.logo-box{
-    width: 100px;
-    padding: 20px;
-    background: linear-gradient(145deg, #cbe4f5, #ffffff);
-    border-radius: 3px;
-    cursor: pointer;
+.card{
+    width: 320px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px 4px #9da09a;
 }
+
+.facebook{
+    background: url(../images/digitalmarketing.png) center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+/******* End Of Skill  area **************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /********************* Media Quaries Section ********************/
@@ -265,6 +279,43 @@ header {
 }
 
 @media (max-width:768px) {
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        width: 100%;
+        position: fixed;
+        left: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--bg-dark);
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 12px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    /**************** End of header Section ************/
+
     h1{
         font-size: 1.9em;
     }
