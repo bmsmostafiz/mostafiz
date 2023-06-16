@@ -122,6 +122,10 @@ header {
     font-family: roboto, sans-serif;
 }
 
+.degination{
+    margin-left: 8px;
+}
+
 .address ul{
     display: flex;
     flex-direction: column;
@@ -145,6 +149,11 @@ header {
 .address li i{
     font-size: 1.3em;
     margin-right: 7px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
 }
 
 .social ul{
@@ -259,6 +268,10 @@ header {
     h1{
         font-size: 1.9em;
     }
+
+    h2{
+        font-size: 1.5em;
+    }
     .profile-pic{
         width: 250px;
     }
@@ -309,12 +322,25 @@ header {
     }
 }
 
-@media (max-width:314px) {
+@media (max-width:379px) {
+    h1{
+        font-size: 1.5em;
+        margin-left: 5px;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+
+    p{
+        font-size: 0.98em;
+    }
+
+
     .intor{
         flex-direction: column;
     }
     .profile-pic{
-        width: 130px;
+        width: 180px;
     }
 
     .address li{
