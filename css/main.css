@@ -118,12 +118,8 @@ header {
 
 .aboutMe h1 span{
     color: green;
-}
-
-.aboutMe h5{
-    font-family: poppins, sans-serif;
-    font-size: 15px;
-    color: var(--color-dark);
+    font-size: 1.2em;
+    font-family: roboto, sans-serif;
 }
 
 .address ul{
@@ -135,7 +131,7 @@ header {
 
 .address li{
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 1em;
     font-family: poppins, sans-serif;
     cursor: pointer;
     color: var(--color-dark);
@@ -147,7 +143,7 @@ header {
 }
 
 .address li i{
-    font-size: 1.3rem;
+    font-size: 1.3em;
     margin-right: 7px;
 }
 
@@ -199,128 +195,7 @@ header {
     width: 500px;
 }
 
-@media (max-width:1251px){
-    .profile-pic{
-        width: 250px;
-    }
-
-    .banner-pic{
-        width: 350px;
-    }
-
-}
-
-@media (max-width:992px){
-    .profile-pic{
-        width: 240px;
-    }
-
-    .aboutMe h1{
-        font-size: 2.1rem;
-    }
-
-    .banner-pic{
-        display: none;
-    }
-
-}
-
-@media (max-width:768px) {
-    .profile-pic{
-        width: 250px;
-    }
-
-    .aboutMe h1{
-        font-size: 1.8rem;
-    }
-
-    .aboutMe h5{
-        font-size: 0.8rem;
-    }
-    
-
-    .banner-pic{
-        display: none;
-    }
-}
-
-@media (max-width:576px) {
-    .intor{
-        flex-direction: column;
-    }
-    .profile-pic{
-        width: 240px;
-    }
-
-    .aboutMe h1{
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .aboutMe h5{
-        font-size: 0.7rem;
-        text-align: center;
-    }
-
-    .address li{
-        font-size: 0.9rem;
-        padding-left: 10px;
-    }
-
-    .address li span{
-        margin-right: 5px;
-        font-weight: normal;
-    }
-    
-    .address li i{
-        font-size: 0.9rem;
-        margin-right: 7px;
-    }
-
-    .banner-pic{
-        display: none;
-    }
-}
-
-@media (max-width:314px) {
-    .intor{
-        flex-direction: column;
-    }
-    .profile-pic{
-        width: 130px;
-    }
-
-    .aboutMe h1{
-        font-size: 1.3rem;
-        text-align: center;
-    }
-
-    .aboutMe h5{
-        font-size: 0.5rem;
-        text-align: center;
-    }
-
-    .address li{
-        font-size: 0.9rem;
-        padding-left: 10px;
-    }
-
-    .address li span{
-        margin-right: 5px;
-        font-weight: normal;
-    }
-    
-    .address li i{
-        font-size: 0.9rem;
-        margin-right: 7px;
-    }
-
-    .banner-pic{
-        display: none;
-    }
-}
-
-/******* End of Introducation area ********/
+/******* End of Introducation area *****************************/
 
 .main-section{
     width: 85vw;
@@ -351,26 +226,48 @@ header {
     cursor: pointer;
 }
 
+
+/********************* Media Quaries Section ******************************/
+
+@media (max-width:1251px){
+    .profile-pic{
+        width: 250px;
+    }
+
+    .banner-pic{
+        width: 350px;
+    }
+
+}
+
 @media (max-width:992px){
+    .profile-pic{
+        width: 240px;
+    }
+
+    .banner-pic{
+        display: none;
+    }
+
     .skill-logo{
         gap: 15px;
     }
 
 }
 
-@media (max-width:768px){
-    .skill-area h1{
-        font-size: 22px;
+@media (max-width:768px) {
+    .profile-pic{
+        width: 250px;
     }
 
-    .skill-area p{
-        font-size: 15px;
+    .banner-pic{
+        display: none;
     }
 
-    .best-skill h2{
-        font-size: 20px;
+    .address li{
+        font-size: 1rem;
     }
-    
+
     .skill-logo{
         gap: 10px;
     }
@@ -381,3 +278,58 @@ header {
     }
 }
 
+@media (max-width:576px) {
+    .intor{
+        flex-direction: column;
+    }
+    .profile-pic{
+        width: 240px;
+    }
+
+    .address li{
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+
+    .address li span{
+        margin-right: 5px;
+        font-weight: normal;
+    }
+    
+    .address li i{
+        font-size: 0.9rem;
+        margin-right: 7px;
+    }
+
+    .banner-pic{
+        display: none;
+    }
+}
+
+@media (max-width:314px) {
+    .intor{
+        flex-direction: column;
+    }
+    .profile-pic{
+        width: 130px;
+    }
+
+    .address li{
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+
+    .address li span{
+        margin-right: 5px;
+        font-weight: normal;
+    }
+    
+    .address li i{
+        font-size: 0.9rem;
+        margin-right: 7px;
+    }
+
+    .banner-pic{
+        display: none;
+    }
+}
