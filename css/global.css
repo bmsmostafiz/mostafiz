@@ -40,21 +40,21 @@ h1{
 
 h2{
     font-family: poppins, sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0;
     padding: 0;
     color: var(--color-dark);
 }
 
-h5{
+h4{
     font-family: poppins, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1em;
     color: var(--color-dark);
 }
 
 p{
     font-family: poppins, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1em;
     text-align: justify;
     color: var(--color-dark);
 

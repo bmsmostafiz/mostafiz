@@ -227,9 +227,9 @@ header {
 }
 
 
-/********************* Media Quaries Section ******************************/
+/********************* Media Quaries Section ********************/
 
-@media (max-width:1251px){
+@media (max-width:1200px){
     .profile-pic{
         width: 250px;
     }
@@ -256,6 +256,9 @@ header {
 }
 
 @media (max-width:768px) {
+    h1{
+        font-size: 1.9em;
+    }
     .profile-pic{
         width: 250px;
     }
