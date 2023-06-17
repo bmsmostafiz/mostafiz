@@ -177,6 +177,11 @@ header {
     padding: 0 8px;
 }
 
+.skill-area p{
+    text-align: justify;
+}
+
+
 .best-skill{
     margin: 40px 0;
 }
@@ -188,26 +193,37 @@ header {
     gap: 30px;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
 }
 
 .card{
     width: 320px;
     height: 200px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 0 5px 4px #9da09a;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 
-.facebook{
-    background: url(../images/digitalmarketing.png) center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
+.card:hover{
+    box-shadow: 0 0 3px 1px #9da09a;
 }
 
+.card p{
+    font-size: 14px;
+}
+
+.img-box{
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.img-box img{
+    width: 100%;
+    max-width: 80px;
+}
 
 
 /******* End Of Skill  area **************/

@@ -48,7 +48,7 @@ h2{
 
 h3{
     font-family: poppins, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 0;
     padding: 0;
     color: var(--color-dark);
@@ -60,14 +60,18 @@ h4{
     color: var(--color-dark);
 }
 
+h5{
+    font-family: poppins, sans-serif;
+    font-size: 0.8em;
+    color: var(--color-dark);
+}
+
 p{
     font-family: poppins, sans-serif;
     font-size: 1em;
-    text-align: justify;
     color: var(--color-dark);
 
 }
-
 
 :root{
     --bg-dark: #212529;
