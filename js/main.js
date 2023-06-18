@@ -19,7 +19,11 @@ const experience = document.querySelector("#experience");
 const secondPara = document.querySelector("#second_para");
 
 readMore.addEventListener("click", () =>{
-    experience.classList.add("show");
-    secondPara.classList.add("show");
-    readMore.innerHTML = "Read Less";
+    experience.classList.toggle("show");
+    secondPara.classList.toggle("show");
+    if(readMore.innerHTML === "Read More"){
+        readMore.innerHTML = "Read Less";
+    }else{
+        readMore.innerHTML = "Read More";
+    }
 })
