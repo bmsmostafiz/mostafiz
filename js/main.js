@@ -13,3 +13,13 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+
+const readMore = document.querySelector("#read-more");
+const experience = document.querySelector("#experience");
+const secondPara = document.querySelector("#second_para");
+
+readMore.addEventListener("click", () =>{
+    experience.classList.add("show");
+    secondPara.classList.add("show");
+    readMore.innerHTML = "Read Less";
+})

@@ -1,3 +1,5 @@
+
+
 /********* Header area *************/
 header {
     background: var(--bg-dark);
@@ -181,6 +183,23 @@ header {
     text-align: justify;
 }
 
+#experience{
+    margin: 30px 0;
+}
+
+.read button{
+    border: none;
+    box-shadow: 0 0 1.3px 1px #9da09a;
+    border-radius: 5px;
+    padding: 3px 7px;
+    background: none;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    background-image: linear-gradient(to bottom right, #9dc5f8, #ffffff);
+    display: none;
+}
+
 
 .best-skill{
     margin: 40px 0;
@@ -204,6 +223,7 @@ header {
     box-shadow: 0 0 5px 4px #9da09a;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
+    background-image: linear-gradient(to bottom right, #9dc5f8, #ffffff);
 }
 
 .card:hover{
@@ -349,6 +369,19 @@ header {
 
     .address li{
         font-size: 1rem;
+    }
+    /********************** End Of Intro Section *******************/
+
+    #experience, #second_para, .hide{
+        display: none;
+    }
+
+    #experience.show, #second_para.show{
+        display: block;
+    }
+
+    .read button{
+        display: block;
     }
 
     .skill-logo{
