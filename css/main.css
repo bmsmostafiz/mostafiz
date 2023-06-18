@@ -245,8 +245,21 @@ header {
     max-width: 80px;
 }
 
-
 /******* End Of Skill  area **************/
+
+
+
+/***************** certificate area **************/
+
+.certificate-area{
+    margin: 50px 0;
+    border: 1px solid;
+}
+
+.certificate-area> img{
+    width: 12%;
+    margin: 0 auto;
+}
 
 
 
