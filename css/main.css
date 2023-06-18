@@ -200,6 +200,10 @@ header {
     display: none;
 }
 
+.read{
+    width: 25%;
+}
+
 
 .best-skill{
     margin: 40px 0;
@@ -256,10 +260,19 @@ header {
     border: 1px solid;
 }
 
-.certificate-area> img{
-    width: 12%;
+.clip-art{
+    width: 15%;
     margin: 0 auto;
 }
+.clip-art img{
+    width: 100%;
+}
+
+.certificate-area h1{
+    text-align: center;
+}
+
+/**************** End of certificate area ******************/
 
 
 
