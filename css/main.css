@@ -198,6 +198,7 @@ header {
     font-size: 16px;
     background-image: linear-gradient(to bottom right, #9dc5f8, #ffffff);
     display: none;
+    margin: 0 auto;
 }
 
 
@@ -253,31 +254,67 @@ header {
 
 .certificate-area{
     margin: 50px 0;
-    border: 1px solid;
 }
 
 .clip-art{
-    width: 15%;
+    width: 12%;
     margin: 0 auto;
 }
 .clip-art img{
     width: 100%;
 }
 
-.certificate-area h1{
+.certificate-area h2{
     text-align: center;
+}
+
+.certificate-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 45%;
+
+}
+
+.certificate-img img{
+    width: 100%;
 }
 
 /**************** End of certificate area ******************/
 
 
+/**************** Testimonials area *********************/
+.testimonial-area h1{
+    text-align: center;
+}
 
+.slide-img{
+    width: 150px;
+    height: 150px;
+    background: #007bb5;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid rgb(83, 159, 230);
+}
 
+.slide-img img{
+    width: 100%;
+}
 
+.user-text{
+    width: 700px;
+    height: 200px;
+    background: #112846;
+    border-radius: 5px;
+}
 
-
-
-
+/**************** End Of Testimonials area *************/
 
 
 
@@ -393,16 +430,15 @@ header {
         font-size: 1rem;
     }
     /********************** End Of Intro Section *******************/
-
-    #experience, #second_para, .hide{
+    
+    #experience, #second_para{
         display: none;
     }
 
     #experience.show, #second_para.show{
         display: block;
     }
-
-    .read button{
+    #read-more{
         display: block;
     }
 
@@ -413,6 +449,10 @@ header {
     .logo-box{
         width: 75px;
         padding: 10px;
+    }
+
+    .clip-art{
+        width: 20%;
     }
 }
 
