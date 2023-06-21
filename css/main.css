@@ -286,33 +286,57 @@ header {
     width: 100%;
 }
 
-/**************** End of certificate area ******************/
+/**************** End of certificate area ****************/
+
+
+
+/**************** Other Skill Area ****************/
+.others-skill{
+    margin-top: 40px;
+}
+
+
+.skill-logo{
+    margin-top: 10px;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box{
+    width: 100px;
+    padding: 20px;
+    background: linear-gradient(145deg, #cbe4f5, #ffffff);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/************** End of Other Skill Area *************/
 
 
 /**************** Testimonials area *********************/
-.testimonial-area h1{
+.testimonial-area{
+    margin-top: 25px;
+}
+
+.testi-head{
     text-align: center;
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-left:3px solid rgb(92, 86, 86);
+    border-right:3px solid rgb(92, 86, 86);
 }
 
-.slide-img{
-    width: 150px;
-    height: 150px;
-    background: #007bb5;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 5px solid rgb(83, 159, 230);
+.testimonial-area h1{
+    margin: 0;
+    padding: 0;
 }
 
-.slide-img img{
-    width: 100%;
-}
-
-.user-text{
-    width: 700px;
-    height: 200px;
-    background: #112846;
-    border-radius: 5px;
-}
 
 /**************** End Of Testimonials area *************/
 
