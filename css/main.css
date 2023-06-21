@@ -10,8 +10,7 @@ header {
 }
 
 .navbar a {
-    text-decoration: none;
-    color: var(--bg-light);
+    color: var(--bg-light) !important;
 }
 
 .navbar {

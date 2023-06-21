@@ -77,6 +77,11 @@ p{
 
 }
 
+a{
+    text-decoration: none;
+    color: var(--color-dark);
+}
+
 :root{
     --bg-dark: #212529;
     --bg-light: #d8e0e7;
