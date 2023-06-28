@@ -64,6 +64,7 @@ header {
 /********* Introducation area *************/
 .intor{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin: 20px 0;
@@ -425,7 +426,7 @@ header {
 /*********** Services Area **********************/
 .services-area{
     width: 85vw;
-    margin: 50px auto 20px;
+    margin: 50px auto 70px;
 }
 
 .services-area h1{
@@ -469,7 +470,14 @@ header {
 
 
 /************ Contact Area ******************/
+.contact-area{
+    width: 85vw;
+    margin: 50px auto 20px;
+}
 
+.contact-area h1{
+    text-align: center;
+}
 
 /********* End of Contact Area ***************/
 
@@ -625,12 +633,13 @@ header {
     .img1{
         width: 300px;
     }
+
+    .social-marketing ul li{
+        font-size: 14px;
+    }
 }
 
 @media (max-width:576px) {
-    .intor{
-        flex-direction: column;
-    }
     .profile-pic{
         width: 240px;
     }
