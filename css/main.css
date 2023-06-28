@@ -175,7 +175,6 @@ header {
 .main-section{
     width: 85vw;
     margin: 50px auto 20px;
-    padding: 0 8px;
 }
 
 .skill-area p{
@@ -281,8 +280,20 @@ header {
 
 }
 
+.certificate-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
 .certificate-img img{
     width: 100%;
+    border-radius: 8px;
+}
+
+.img1{
+    width: 500px;
 }
 
 /**************** End of certificate area ****************/
@@ -371,7 +382,7 @@ header {
 .user img{
     width: 120px;
     border-radius: 50%;
-    border: 10px solid #e8ecff;
+    border: 8px solid #e8ecff;
     position: absolute;
     top: -63px;
     left: 50%;
@@ -409,13 +420,58 @@ header {
 .active{
     width: 45px !important;
 }
-
-
-
-
 /**************** End Of Testimonials area *************/
 
+/*********** Services Area **********************/
+.services-area{
+    width: 85vw;
+    margin: 50px auto 20px;
+}
 
+.services-area h1{
+    text-align: center;
+}
+
+.services-wraper{
+    margin-top: 25px;
+}
+
+.servics-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-marketing{
+    background-image: linear-gradient(to bottom right, #9dc5f8, #ffffff);
+    box-shadow: 0 0 5px 4px #9da09a;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.social-marketing ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+
+.social-marketing ul li{
+    font-size: 17px;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+    list-style-type: square;
+}
+
+/***********End of Services Area **********************/
+
+
+/************ Contact Area ******************/
+
+
+/********* End of Contact Area ***************/
 
 
 
@@ -477,6 +533,10 @@ header {
 
     .testimonial-area{
         display: none;
+    }
+
+    .img1{
+        width: 400px;
     }
 }
 
@@ -560,6 +620,10 @@ header {
 
     .clip-art{
         width: 20%;
+    }
+
+    .img1{
+        width: 300px;
     }
 }
 
