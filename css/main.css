@@ -498,7 +498,6 @@ header {
 }
 
 .form-titel{
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -521,7 +520,7 @@ header {
 
 .inputBox{
     position: relative;
-    width: 350px;
+    width: 400px;
 }
 
 .inputBox input{
@@ -643,6 +642,10 @@ header {
     box-shadow: 0 0 5px 1px #7e7979;
 }
 
+.map-box{
+    width: 42%;
+}
+
 
 /********* End of Contact Area ***************/
 
@@ -675,6 +678,12 @@ header {
 
 /********************* Media Quaries Section ********************/
 
+@media (max-width:1419px){
+    .map-box{
+        width: 55%;
+    }
+}
+
 @media (max-width:1200px){
     .profile-pic{
         width: 250px;
@@ -682,6 +691,10 @@ header {
 
     .banner-pic{
         width: 350px;
+    }
+
+    .map-box{
+        width: 70%;
     }
 
 }
@@ -710,6 +723,10 @@ header {
 
     .img1{
         width: 400px;
+    }
+
+    .inputBox{
+        width: 75%;
     }
 }
 
@@ -801,6 +818,10 @@ header {
 
     .social-marketing ul li{
         font-size: 14px;
+    }
+
+    .map-box{
+        width: 100%;
     }
 }
 
