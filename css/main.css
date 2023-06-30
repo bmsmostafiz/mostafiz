@@ -447,7 +447,7 @@ header {
 .social-marketing{
     background-image: linear-gradient(to bottom right, #9dc5f8, #ffffff);
     box-shadow: 0 0 5px 4px #9da09a;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 8px;
 }
 
@@ -473,11 +473,176 @@ header {
 .contact-area{
     width: 85vw;
     margin: 50px auto 20px;
+    font-family: poppins, sans-serif;
 }
 
 .contact-area h1{
     text-align: center;
 }
+
+.address-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px;
+    gap: 20px;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(28, 129, 226, 0.2);
+    padding: 0px 10px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.form-titel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 40px;
+}
+
+.form-titel i{
+    font-size: 45px;
+    color: #ffffff;
+    background-color: rgba(28, 129, 226, 0.2);
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: -50px;
+    left: 43%;
+}
+
+.inputBox{
+    position: relative;
+    width: 350px;
+}
+
+.inputBox input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #eaeff5;
+    border-radius: 5px;
+    outline: none;
+    color: #1d1919;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.inputBox span{
+    position: absolute;
+    left: 5px;
+    top: 21px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #000;
+    transition: 0.4s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+    color: #000;
+    transform: translateX(5px) translateY(-20px);
+    font-size: 0.75em;
+    padding: 0 8px;
+    background: #eaeff5;
+    border-left: 1px solid #a76aec;
+    border-right: 1px solid #a76aec;
+}
+
+.services-box{
+    display: flex;
+    gap: 10px;
+}
+
+.select-item{
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #eaeff5;
+    border-radius: 5px;
+    outline: none;
+    color: #1d1919;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.budget-box{
+    position: relative;
+    width: 250px !important;
+}
+
+.text-box{
+    position: relative;
+    width: 100%;
+}
+
+.text-box textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #eaeff5;
+    border-radius: 5px;
+    outline: none;
+    color: #1d1919;
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.text-box span{
+    position: absolute;
+    left: 5px;
+    top: 21px;
+    pointer-events: none;
+    font-size: 1em;
+    color: #000;
+    transition: 0.4s;
+}
+
+.text-box textarea:valid ~ span,
+.text-box textarea:focus ~ span{
+    color: #000;
+    transform: translateX(5px) translateY(-20px);
+    font-size: 0.75em;
+    padding: 0 8px;
+    background: #eaeff5;
+    border-left: 1px solid #a76aec;
+    border-right: 1px solid #a76aec;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.button .btn{
+    border: none;
+    background: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+    background-color: rgba(28, 129, 226, 0.2);
+    border-radius: 8px;
+    padding: 3px 10px;
+    transition: 0.4s;
+
+}
+
+.button .btn:hover{
+    box-shadow: 0 0 5px 1px #7e7979;
+}
+
 
 /********* End of Contact Area ***************/
 
