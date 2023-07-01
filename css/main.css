@@ -393,7 +393,7 @@ header {
 .user p{
     color: #ffffff;
     margin: 39px 0 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .user h3{
@@ -719,7 +719,7 @@ header {
     font-family: poppins, sans-serif;
 }
 
-.fa-house{
+.footer-home{
     width: 30px;
     height: 30px;
     border-radius: 50%;
