@@ -441,7 +441,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .social-marketing{
@@ -454,7 +454,7 @@ header {
 .social-marketing ul{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     margin-top: 20px;
     margin-left: 22px;
 }
@@ -558,6 +558,7 @@ header {
 
 .services-box{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -646,7 +647,6 @@ header {
     width: 42%;
 }
 
-
 /********* End of Contact Area ***************/
 
 
@@ -657,7 +657,31 @@ header {
 
 
 
+/************** To Top Button ***********/
+.to-top{
+    background: #ffffff;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
 
+.to-top.active3{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+/******** End of To Top Button **********/
 
 
 
@@ -726,7 +750,7 @@ header {
     }
 
     .inputBox{
-        width: 75%;
+        width: 85%;
     }
 }
 
@@ -823,6 +847,14 @@ header {
     .map-box{
         width: 100%;
     }
+
+    .to-top{
+        bottom: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
 }
 
 @media (max-width:576px) {
@@ -847,6 +879,10 @@ header {
 
     .banner-pic{
         display: none;
+    }
+
+    .inputBox{
+        width: 90%;
     }
 }
 

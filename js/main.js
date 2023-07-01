@@ -69,3 +69,21 @@ control4.addEventListener("click", () => {
     control3.classList.remove("active2");
     control4.classList.add("active2");
 })
+
+
+
+
+
+
+//-------------- To Top Button
+
+const toTop = document.querySelector(".to-top");
+
+
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 600) {
+        toTop.classList.add("active3");
+    } else{
+        toTop.classList.remove("active3");
+    }
+})
