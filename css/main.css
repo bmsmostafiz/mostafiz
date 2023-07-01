@@ -398,7 +398,7 @@ header {
 
 .user h3{
     font-size: 26px;
-    color: #cbb4f5;
+    color: #ffffff;
 }
 
 .controls{
@@ -661,7 +661,7 @@ header {
 .to-top{
     background: #ffffff;
     position: fixed;
-    bottom: 16px;
+    bottom: 30px;
     right: 32px;
     width: 50px;
     height: 50px;
@@ -677,15 +677,81 @@ header {
 }
 
 .to-top.active3{
-    bottom: 32px;
+    bottom: 64px;
     pointer-events: auto;
     opacity: 1;
 }
 /******** End of To Top Button **********/
 
+/************Footer area ********/
 
+.footer{
+    width: 100%;
+    background: var(--bg-dark);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-top: 70px;
+}
 
+.copyright P{
+    font-size: 15px;
+    color: var(--color-light);
+}
 
+.footMenu{
+    margin: 0 20px;
+}
+
+.footMenu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.footMenu ul li a{
+    color: var(--color-light);
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+}
+
+.fa-house{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #10ec34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.privacy-page ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.privacy-page ul li a{
+    color: var(--color-light);
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+}
+
+/************ End of Footer area ********/
+
+/*********** Privacy & Disclamer Area *************/
+.page-setup{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+/***********End of Privacy & Disclamer Area *************/
 
 
 
@@ -883,6 +949,18 @@ header {
 
     .inputBox{
         width: 90%;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+
+    .footer p{
+        font-size: 10px;
+    }
+
+    .footer ul li a{
+        font-size: 10px;
     }
 }
 
