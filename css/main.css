@@ -446,9 +446,14 @@ header {
 
 .social-marketing{
     background-image: linear-gradient(to bottom right, #9dc5f8, #ffffff);
-    box-shadow: 0 0 5px 4px #9da09a;
+    box-shadow: 0 0 3px 1px #9da09a;
     padding: 10px 10px;
     border-radius: 8px;
+    transition: all 0.4s;
+}
+
+.social-marketing:hover{
+    box-shadow: 0 0 5px 4px #9da09a;
 }
 
 .social-marketing ul{
@@ -750,6 +755,7 @@ header {
     width: 85%;
     margin: 0 auto;
     padding-top: 20px;
+    text-align: justify;
 }
 /***********End of Privacy & Disclamer Area *************/
 
