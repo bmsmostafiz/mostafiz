@@ -100,5 +100,6 @@ form.addEventListener('submit', e => {
             body: new FormData(form)
         })
         .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        form.reset()
         .catch(error => console.error('Error!', error.message))
 })
