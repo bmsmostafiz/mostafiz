@@ -106,3 +106,5 @@ privacy policy
 disclaimer
 
 Deploy ID:- AKfycby7GuuDHZcQ8BQTqYpSoWfxpNYcAiC7U09XBEXQTZk1_6aCQ26SkNgqj7T-Md3a9Z_g7g
+
+Date firmat =IFS($C13="","",B13="",NOW(),TRUE,B13)
