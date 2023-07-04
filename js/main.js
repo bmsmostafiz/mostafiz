@@ -81,9 +81,24 @@ const toTop = document.querySelector(".to-top");
 
 
 window.addEventListener("scroll", () => {
-    if(window.scrollY > 600) {
+    if (window.scrollY > 600) {
         toTop.classList.add("active3");
-    } else{
+    } else {
         toTop.classList.remove("active3");
     }
+})
+
+
+//-------------- Upload data to google sheet
+const scriptURL = 'https://script.google.com/macros/s/AKfycby7GuuDHZcQ8BQTqYpSoWfxpNYcAiC7U09XBEXQTZk1_6aCQ26SkNgqj7T-Md3a9Z_g7g/exec'
+const form = document.forms['google-sheet']
+
+form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, {
+            method: 'POST',
+            body: new FormData(form)
+        })
+        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+        .catch(error => console.error('Error!', error.message))
 })

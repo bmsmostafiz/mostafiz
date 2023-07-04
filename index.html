@@ -63,7 +63,7 @@
                     <li><span><i class="fa-solid fa-phone"></i> Phone:</span>+8801701505116</li>
                     <li><span><i class="fa-brands fa-skype"></i> Skype:</span>bms.mostafoz</li>
                     <li> <a href="https://wa.me/008801701505116" target="_blank"><span><i
-                                    class="fa-brands fa-whatsapp"></i> Whatsapp:</span>+8801701505116</a> </li>
+                                    class="fa-brands fa-whatsapp"></i> WhatsApp:</span>+8801701505116</a> </li>
                 </ul>
             </div>
             <div class="social">
@@ -384,26 +384,26 @@
 
         <div class="address-form">
 
-            <form class="input-form">
+            <form class="input-form" method="post" name="google-sheet">
                 <div class="form-titel">
                     <span><i class="far fa-paper-plane"></i></span>
                     <h3>Send Me Your Inquiries</h3>
                 </div>
 
                 <div class="inputBox">
-                    <input type="text" required>
+                    <input type="text" required name="Name">
                     <span>Your Full Name</span>
                 </div>
 
                 <div class="inputBox">
-                    <input type="email" required>
+                    <input type="email" required name="Email">
                     <span>Enter Email</span>
                 </div>
 
                 <div class="services-box">
                     <div class="inputBox">
-                        <select id="services-items" class="select-item" name="services">
-                            <option value="Choose Services">Choose Services</option>
+                        <select id="services-items" class="select-item" name="Services">
+                            <option value="Not Selected">Choose Services</option>
                             <option value="All">All</option>
                             <option value="Facebook Marketing">Facebook Marketing</option>
                             <option value="YouTube Marketing">YouTube Marketing</option>
@@ -414,19 +414,19 @@
                     </div>
 
                     <div class="budget-box inputBox">
-                        <input type="number" required>
+                        <input type="number" required name="Budget">
                         <span>Enter Your Budget</span>
                     </div>
                 </div>
 
                 <div class="text-box">
-                    <textarea required></textarea>
+                    <textarea required name="Massage"></textarea>
                     <span>Write Your Massage</span>
                 </div>
 
                 <div class="button">
                     <input class="btn" type="reset" value="Reset">
-                    <input class="btn" type="submit" value="Send">
+                    <input class="btn" type="submit" value="Send" name="submit">
                 </div>
 
             </form>
