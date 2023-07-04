@@ -90,7 +90,7 @@ window.addEventListener("scroll", () => {
 
 
 //-------------- Upload data to google sheet
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxwddPyPqi4CLwiVo5U1--3ia_jietzDPbqnLoT7PFyxWny0te7pVD-zuEdoyiZ1EXNAw/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxR1VT1HpnY4K8XJyYQaf0bwOYPnD4fbky7R_N8Pv6pUt7OUKnTT0_YcOL8Pe1uD4OmZQ/exec'
 const form = document.forms['google-sheet']
 
 form.addEventListener('submit', e => {
