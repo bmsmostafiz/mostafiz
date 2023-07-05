@@ -101,5 +101,6 @@ form.addEventListener('submit', e => {
             body: new FormData(form)
         })
         .then(response => alert("Thanks You! Your submission has been sent..."))
+        form.reset()
         .catch(error => console.error('Error!', error.message))
 })
